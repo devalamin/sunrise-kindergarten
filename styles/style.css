@@ -65,6 +65,9 @@ section{
 
 /* common css end */
 
+.nav-part{
+    padding-top: 20px;
+}
 
 .nav-part .kindergarten{
     font-weight: 700;
@@ -126,7 +129,8 @@ section{
 
 
 .standard-part{
-    background-image: url(/images/bg.png);
+    margin-top: -50px;
+    background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-top:50px ;
@@ -146,8 +150,7 @@ section{
 }
 
 
-.standard-card{
-    
+.standard-card{ 
     border-radius: 8px;
     padding: 80px 20px;
     text-align: center;
@@ -227,7 +230,7 @@ section{
     }
 
     .standard-part{
-        padding-top: 0;
+        padding-top: 20px;
     }
     
     .standard-cart-container{
