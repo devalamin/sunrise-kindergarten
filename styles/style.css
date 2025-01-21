@@ -296,6 +296,36 @@ section {
     padding: 10px 20px 20px 20px;
 }
 
+footer{
+    background-color: #01ACFD;
+    color: #FFFF;
+    padding: 80px 0;
+    margin-top: -2px;
+}
+.footer{
+    margin-top: 0;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer-container .left,.middle,.right{
+    width: 30%;
+}
+
+.footer-container h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-container ul li{
+    margin: 17px 0;
+}
+
 
 
 
@@ -393,6 +423,18 @@ section {
         padding: 5px 8px;
         font-size: 15px;
         top: -30px;
+    }
+
+    footer{
+        padding: 30px 0;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-container .left,.middle,.right{
+        margin-bottom: 25px;
+        width: 100%;
     }
 
 
