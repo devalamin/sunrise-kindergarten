@@ -102,6 +102,13 @@ section {
 
 /* common css end */
 
+.marque-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: orange;
+    margin-top: 10px;
+}
+
 .nav-part {
     padding-top: 20px;
 }
