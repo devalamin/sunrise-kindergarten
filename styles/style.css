@@ -246,6 +246,15 @@ section {
     padding: 22px;
     border-radius: 50%;
     background-color: orange;
+    transition: 0.3s;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.optional-icon i:hover{
+
+    background: #fff;
+    color: orange;
+    border: 1px solid orange;
 }
 
 #story-bg {
@@ -438,6 +447,7 @@ footer{
     .footer-container{
         flex-direction: column;
     }
+
 
     .footer-container .left,.middle,.right{
         margin-bottom: 25px;
